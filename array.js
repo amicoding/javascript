@@ -95,6 +95,7 @@ let todoList = [ "do laundry", "pay bills", "walk the dog" ]
   
    let temperature = 15;
    let isRaining = true;
+   let isSunny = true
    
    if (temperature < 0 ) {
      console.log("Its a very cool day!! Wear heavy jacket");
@@ -105,7 +106,7 @@ let todoList = [ "do laundry", "pay bills", "walk the dog" ]
    }
    
    
-   else if (temperature > 20 && isRaining === true ) {
+   else if (temperature > 20 && isSunny === true ) {
      console.log("Its s sunny day . Wear T-shirt and sunglasses");
    }
    
