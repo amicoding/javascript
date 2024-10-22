@@ -31,20 +31,74 @@
    
    function addKey(key,value){
      
-      person.city = value;
-      console.log(person);
+      person.key = value;
+      // console.log(person);
    }
    
    addKey(yourKey, yourValue)
 
 // ******************************
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+  // problem 3: a function can retrun even and odd number
+   
+   let userNumber = 122;
+   
+   function cheackNumber(){
+     
+     if (userNumber%2 === 0) {
+       
+      // console.log("You enter an even number!! ");
+       
+     }
+     else{
+      // console.log("Your number is odd!!");
+     }
+   }
+   
+   cheackNumber()
+// ******************************
+
+  // problem 4: a function can uptdate the model of the car
+  
+  let car = {
+    name : "Toyota Corolla",
+    model : "Corolla Le",
+    price : 5000
+  };
+  
+  let carModel = " Corolla uptdated"; 
+  // input your uptdated model 
+  
+  function carInfoUpdate(mod){
+   
+   car.model = mod;
+  // console.log(car);
+  }
+  
+  carInfoUpdate(carModel)
+  
+// ******************************
+   
+  // problem 5: a function can print Object property and value;
+   
+   let product = {
+     
+     name : 'Pendrive',
+     price : '1950tk',
+     color : 'black',
+     qt : 400, 
+   };
+   
+   function productInfo(){
+     
+     for(key in product){
+       
+      // console.log(key + " : "+ product[key] );
+       
+     }
+     
+   }
+   
+   productInfo();
+   
+// ******************************
