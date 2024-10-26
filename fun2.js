@@ -1,12 +1,18 @@
 
 // problem 1: compare string is equal or unequal?
 
-let str1 = "it is a String one";
-let str2 = "it is a String one ";
+let str1 = "it is";
+let str2 = "IT IS";
 
 function comparString(a , b){
   
-  return a === b ;
+  if (a.toLowerCase()===b.toLowerCase()) {
+    return true
+  }
+  
+  else {
+    return false
+  }
 }
 
 const sendStr = comparString(str1, str2);
