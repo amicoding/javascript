@@ -23,7 +23,7 @@ console.log(sendStr);
    
   // problem 2: a function can cheak and find word in a sentence
   
-  let sentence = "there are more programming language in our modern world. such c++, python, java, javascript etc";
+  let sentence = "there are more programming language in our modern world. such c++, python, java, javascriptd etc";
    
    function findWord(text){
      
